@@ -1,0 +1,43 @@
+/*color obtained from http://www.colourlovers.com/palette/147921/Blue_Kitten*/
+th {
+  color: #250352;
+  /*background-color: black;*/
+  background-color: #ECE59A;
+  /*background-color: #2C3B63;*/
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-right: 40px;
+}
+table tr:nth-child(odd) td{
+  text-align: left;
+  width:auto;
+  color:#FD6E8A;
+  background-color: #2C3B63;
+
+}
+tr {
+  text-align: left;
+  width:auto;
+  color: #2C3B63;
+  background-color:#FD6E8A;
+
+}
+tr:nth-child(odd) td:hover {
+  color: #2C3B63;
+  background-color:#FD6E8A;
+}
+tr:nth-child(even) td:hover {
+  color:#FD6E8A;
+  background-color: #2C3B63;
+}
+
+table {
+  /*width: auto;*/
+  border-collapse: collapse;
+  text-align: left;
+}
+
+body {
+  background-color: #ECE59A;
+}
